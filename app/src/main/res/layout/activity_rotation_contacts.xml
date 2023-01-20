@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/straight_corner"
+                android:fontFamily="@font/autour_one"
+                android:text=" Rotation Contacts "
+                android:textColor="#1A237E"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="75dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/text1"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="1. EGH ED Education Lead – Neil Dattani,\n nddattani@gmail.com\n\n
+2. BCH ED Education Lead - Qamar Amin,\n Qamar.Amin@williamoslerhs.ca\n\n
+3. University of Toronto Program Coordinator – Lia Cavaliere,\n Lia.Cavaliere@williamoslerhs.ca\n\n
+4. McMaster Program Coordinator – Meghan McCauley-Brown,\n Meghan.McCauley-Brown@williamoslerhs.ca"
+                android:textColor="#1A237E"
+                android:textColorLink="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rotation_contacts"
+            android:icon="@drawable/ic_baseline_contact_mail_24"
+            android:title="Rotation contacts" />
+        <item
+            android:id="@+id/nav_eGH_contacts"
+            android:icon="@drawable/ic_baseline_contact_phone_24"
+            android:title="EGH contacts" />
+        <item
+            android:id="@+id/nav_department_map"
+            android:icon="@drawable/ic_baseline_navigation_24"
+            android:title="EGH Department map" />
+
+        <item
+            android:id="@+id/nav_bchDepartmentMap"
+            android:icon="@drawable/ic_baseline_navigation_24"
+            android:title="BCH Department map" />
+        <item
+            android:id="@+id/nav_parkingBadgeITCredentials"
+            android:icon="@drawable/ic_baseline_local_parking_24"
+            android:title="Parking, badge, IT credentials" />
+        <item
+            android:id="@+id/nav_covid19_screening"
+            android:icon="@drawable/ic_baseline_coronavirus_24"
+            android:title="COVID-19 screening" />
+        <item
+            android:id="@+id/nav_educational_resources"
+            android:icon="@drawable/ic_baseline_local_library_24"
+            android:title="Educational resources" />
+    </group>
+
+
+</menu>

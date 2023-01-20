@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/holo_blue_light">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/straight_corner"
+            android:fontFamily="@font/autour_one"
+            android:text=" COVID-19 Screening "
+            android:textColor="#1A237E"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_below="@id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="75dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:autoLink="all"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:text="To save time you can use this link to speed up the screening process when entering the building:\n\n
+https://goingbeyond.williamoslerhs.ca"
+            android:textColor="#1A237E"
+            android:textColorLink="@color/purple_500"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

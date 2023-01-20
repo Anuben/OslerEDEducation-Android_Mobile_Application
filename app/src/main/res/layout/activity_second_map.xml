@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--TextView and Button displayed in First Fragment -->
+
+            <Button
+                android:id="@+id/firstButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/straight_corner"
+                android:fontFamily="@font/autour_one"
+                android:text="Acute"
+                android:textColor="#1A237E"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:backgroundTint="#9C1010"
+                app:backgroundTintMode="screen" />
+
+            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="150dp"
+                app:src="@drawable/map_2" />
+
+            <Button
+                android:id="@+id/backtButton2"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="520dp"
+                android:background="@drawable/rounded_corner"
+                android:fontFamily="@font/autour_one"
+                android:text="Go Back"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFBB86FC" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

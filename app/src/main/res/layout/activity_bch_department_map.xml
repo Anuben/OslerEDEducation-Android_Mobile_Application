@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".BchDepartmentMap">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--TextView and Button displayed in First Fragment -->
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/straight_corner"
+                android:fontFamily="@font/autour_one"
+                android:text=" BCH Department Map "
+                android:textColor="#1A237E"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="150dp"
+                app:src="@drawable/map_3" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

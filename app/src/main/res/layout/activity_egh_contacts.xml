@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/straight_corner"
+                android:fontFamily="@font/autour_one"
+                android:text=" EGH Contacts "
+                android:textColor="#1A237E"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="75dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:text=" Locating – 34567\n\n
+GEM nurse – 32033\n\n
+Social Worker – 32680\n\n
+Diagnostic imaging – 39255\n\n
+Portable xray – 39258\n\n
+INSTED – 32104\n\n
+Crisis worker – 33355\n\n
+MLA – 32699/39218\n\n
+RT – 4379257932\n\n
+MAU/FT – 32516\n\n
+Acute – 33530\n\n
+CAZ – 39210\n\n
+ATC – 32536\n\n
+EPU(MH) – 39883\n\n
+IS (IT) - 56222\n\n
+"
+                android:textColor="#1A237E"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
