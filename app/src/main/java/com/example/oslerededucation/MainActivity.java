@@ -56,6 +56,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent1);
 
                 break;
+            case R.id.nav_bCH_contacts:
+                Intent intent2 = new Intent(MainActivity.this, BCHContacts.class);
+                startActivity(intent2);
+
+                break;
             case R.id.nav_department_map:
                 Intent intent3 = new Intent(MainActivity.this, DepartmentMap.class);
                 startActivity(intent3);

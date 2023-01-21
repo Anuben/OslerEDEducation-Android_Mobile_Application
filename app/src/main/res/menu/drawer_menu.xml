@@ -13,6 +13,10 @@
             android:icon="@drawable/ic_baseline_contact_phone_24"
             android:title="EGH contacts" />
         <item
+            android:id="@+id/nav_bCH_contacts"
+            android:icon="@drawable/ic_baseline_contact_phone_24"
+            android:title="BCH contacts" />
+        <item
             android:id="@+id/nav_department_map"
             android:icon="@drawable/ic_baseline_navigation_24"
             android:title="EGH Department map" />

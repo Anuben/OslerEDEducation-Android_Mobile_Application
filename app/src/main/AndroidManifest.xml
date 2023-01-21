@@ -37,6 +37,9 @@
             android:name=".EGHContacts"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".BCHContacts"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".EducationalResources"
             android:parentActivityName=".MainActivity" />
         <activity
