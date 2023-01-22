@@ -37,6 +37,10 @@
             android:id="@+id/nav_educational_resources"
             android:icon="@drawable/ic_baseline_local_library_24"
             android:title="Educational resources" />
+        <item
+            android:id="@+id/nav_shift_evaluation_form"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="Shift Evaluation Form" />
     </group>
 
 

@@ -51,7 +51,9 @@
         <activity
             android:name=".COVID19Screening"
             android:parentActivityName=".MainActivity" />
-
+        <activity
+            android:name=".ShiftEvaluationForm"
+            android:parentActivityName=".MainActivity"/>
 
         <meta-data
             android:name="preloaded_fonts"
