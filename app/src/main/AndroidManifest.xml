@@ -19,6 +19,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".YourPersonalNotes"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".RotationContacts"
             android:parentActivityName=".MainActivity" />
         <activity
@@ -51,6 +54,15 @@
         <activity
             android:name=".COVID19Screening"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddNote"
+            android:parentActivityName=".YourPersonalNotes" />
+        <activity
+            android:name=".Detail"
+            android:parentActivityName=".YourPersonalNotes" />
+        <activity
+            android:name=".Edit"
+            android:parentActivityName=".YourPersonalNotes" />
         <activity
             android:name=".ShiftEvaluationForm"
             android:parentActivityName=".MainActivity"/>
